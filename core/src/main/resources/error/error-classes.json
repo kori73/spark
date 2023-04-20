@@ -1530,6 +1530,12 @@
     ],
     "sqlState" : "42K09"
   },
+  "UNEXPECTED_NEGATIVE_VALUE_IN_FREQUENCY_EXPRESSION" : {
+    "message" : [
+      "Negative values found in <frequencyExpression>"
+    ],
+    "sqlState": "42604"
+  },
   "UNKNOWN_PROTOBUF_MESSAGE_TYPE" : {
     "message" : [
       "Attempting to treat <descriptorName> as a Message, but it was <containingType>."
@@ -3744,11 +3750,6 @@
   "_LEGACY_ERROR_TEMP_2011" : {
     "message" : [
       "Unexpected data type <dataType>."
-    ]
-  },
-  "_LEGACY_ERROR_TEMP_2013" : {
-    "message" : [
-      "Negative values found in <frequencyExpression>"
     ]
   },
   "_LEGACY_ERROR_TEMP_2014" : {

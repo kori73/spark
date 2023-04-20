@@ -409,7 +409,7 @@ private[sql] object QueryExecutionErrors extends QueryErrorsBase {
   def negativeValueUnexpectedError(
       frequencyExpression : Expression): SparkIllegalArgumentException = {
     new SparkIllegalArgumentException(
-      errorClass = "_LEGACY_ERROR_TEMP_2013",
+      errorClass = "UNEXPECTED_NEGATIVE_VALUE_IN_FREQUENCY_EXPRESSION",
       messageParameters = Map("frequencyExpression" -> frequencyExpression.sql))
   }
 
