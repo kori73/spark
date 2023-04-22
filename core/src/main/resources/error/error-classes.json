@@ -1534,7 +1534,7 @@
     "message" : [
       "Negative values found in <frequencyExpression>"
     ],
-    "sqlState": "42604"
+    "sqlState" : "42604"
   },
   "UNKNOWN_PROTOBUF_MESSAGE_TYPE" : {
     "message" : [
